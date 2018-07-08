@@ -1,0 +1,13 @@
+.navbar{
+	background-color:#162b32;
+}
+.form-inline input{
+	width: 600px;
+	border-radius: 10px 0px 0px 10px;
+	border:none;
+}
+.form-inline button{
+	border-radius: 0px 10px 10px 0px;
+	background-color: #f6b810;
+	border:none;
+}

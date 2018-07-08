@@ -10,6 +10,7 @@
 	width: 245px;
 	border: none; 
 	position: relative; 
+	left: 25px; 
 	top:-5px;
 	background-color: #f6b810; 
 }

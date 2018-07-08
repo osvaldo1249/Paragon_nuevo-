@@ -1,0 +1,37 @@
+.footer{
+	background-color: #4f4f4f;
+	padding: 30px 0;
+	color: #fff;
+	text-align: center;
+}
+.footer_contact{
+	background-color: #d7d7d7;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.footer_contact h4{
+	font-family: 'Lato:700', sans-serif;
+	font-size: 18pt;	
+}
+.subscribe{
+	background-color: #f5f5f5;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+.subscribe h2{
+	text-align: center;
+    font-size: 22pt;
+    font-weight: bold;
+    font-family: 'Montserrat',sans-serif;
+}
+.subscribe{
+	text-align: center;
+    font-size: 14pt;
+    font-family: 'Lato',sans-serif;
+}
+.subscribe a{
+	background-color: #f15c34; 
+	color: white; 
+	text-decoration: none;
+	padding: 5px;
+}
