@@ -1,4 +1,4 @@
-.nav{
+.navbar{
 	background-color:#f5f5f5; 
 	height:50px;
 	padding-top: 5px;
@@ -9,8 +9,7 @@
 	color: #fff;
 	width: 245px;
 	border: none; 
+	top: 1.5px;
 	position: relative; 
-	left: 25px; 
-	top:-5px;
 	background-color: #f6b810; 
 }

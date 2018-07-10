@@ -1,0 +1,13 @@
+.terms{
+	padding: 30px 0;
+}
+.terms p{
+	font-family: 'Lato:700', sans-serif;
+	font-size: 12pt;
+}
+.terms h3{
+	padding: 30px 0;
+	font-family: 'Lato:700', sans-serif;
+	font-weight: bold;
+	font-size: 16pt;
+}

@@ -5,9 +5,9 @@ import { ProductsDetailComponent } from './products-detail/products-detail.compo
 import { HomepageComponent } from './homepage/homepage.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
 import { TerminosComponent } from './terminos/terminos.component';
+import { BusquedaComponent } from './busqueda/busqueda.component';
 
-
-const routes: Routes = [
+const routes: Routes = [ 
 	  {
     	path: 'users',
     	component: UsersComponent
@@ -19,20 +19,26 @@ const routes: Routes = [
   	},
 
     {
-      path: 'acerca',
+      path: 'acerca-de-nosotros',
       component: NosotrosComponent
     },
     
     {
-      path: 'terminos',
+      path: 'terminos-y-condiciones',
       component: TerminosComponent
 
     },
 
-  	{
-    	path: '**',
-    	component: HomepageComponent
-  	}
+    {
+      path: 'categoria',
+      component: BusquedaComponent
+
+    },
+
+    {
+      path: '**',
+      component: HomepageComponent
+    }
 ];
 
 @NgModule({

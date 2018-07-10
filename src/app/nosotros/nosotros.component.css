@@ -1,0 +1,13 @@
+.about{
+	padding: 30px 0;
+}
+.about p{
+	font-family: 'Lato:700', sans-serif;
+	font-size: 12pt;
+}
+.about h3{
+	padding: 30px 0;
+	font-family: 'Lato:700', sans-serif;
+	font-weight: bold;
+	font-size: 16pt;
+}

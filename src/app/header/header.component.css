@@ -1,13 +1,25 @@
 .navbar{
 	background-color:#162b32;
+	width: 100%;
 }
 .form-inline input{
 	width: 600px;
 	border-radius: 10px 0px 0px 10px;
-	border:none;
+	border: none;
 }
 .form-inline button{
+	padding-top: 5px; 
+	padding-bottom: 4px;
 	border-radius: 0px 10px 10px 0px;
 	background-color: #f6b810;
-	border:none;
+	border: none;
+}
+
+@media only screen and (max-width: 600px) {
+	.form-inline input{
+	width: 300px;
+	border-radius: 10px 0px 0px 10px;
+	border: none;
+	}
+	
 }
