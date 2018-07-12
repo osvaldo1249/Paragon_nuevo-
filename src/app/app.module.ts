@@ -1,4 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -13,6 +14,7 @@ import { NosotrosComponent } from './nosotros/nosotros.component';
 import { TerminosComponent } from './terminos/terminos.component';
 import { BusquedaComponent } from './busqueda/busqueda.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,13 +26,15 @@ import { BusquedaComponent } from './busqueda/busqueda.component';
     ProductsDetailComponent,
     NosotrosComponent,
     TerminosComponent,
-    BusquedaComponent
+    BusquedaComponent,
   ],
   imports: [
     BrowserModule,
+    AngularFontAwesomeModule,
     AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
