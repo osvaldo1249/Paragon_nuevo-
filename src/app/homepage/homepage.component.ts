@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import  swiper from 'swiper';
-import { Productos } from '../productos';
 
 @Component({
   selector: 'app-homepage',
@@ -8,33 +7,7 @@ import { Productos } from '../productos';
   styleUrls: ['./homepage.component.css']
 })
 
-export class HomepageComponent implements OnInit { 
-	producto: Productos[] =[
-	    {
-	      id: 1,
-	      name: 'Consola Nintendo Switch Neon Red Blue – Standard Edition – Nacional',
-	      precio: 7200,
-	      sitio: 6  
-	    },
-	    {
-	      id: 2,
-	      name: 'Consola Nintendo Switch Neon',
-	      precio: 8000,
-	      sitio: 3  
-	    },
-	    {
-	      id: 3,
-	      name: 'Consola Nintendo Switch Neon Red Blue',
-	      precio: 1200,
-	      sitio: 6  
-	    },
-	    {
-	      id: 4,
-	      name: 'Consola Nintendo Switch',
-	      precio: 800,
-	      sitio: 3  
-	    }
-  	];
+export class HomepageComponent implements OnInit {
 	constructor() {}
   	ngOnInit() {
   		var Swiper = new swiper('#swiper-header', {
@@ -61,9 +34,9 @@ export class HomepageComponent implements OnInit {
 			prevButton: '.swiper-button-prev',
 			pagination: '.swiper-pagination',
 		    paginationType: 'fraction',
-		    slidesPerGroup: 3,
-		    slidesPerView: 3,
-		    spaceBetween: 40,
+		    slidesPerGroup: 4,
+		    slidesPerView: 4,
+		    spaceBetween: 10,
 		    clickable: true,
 			breakpoints: {
 		        768: {
@@ -80,5 +53,7 @@ export class HomepageComponent implements OnInit {
 		        }
 		    }
 	    });
+
+	    
   	}
 }
