@@ -1,0 +1,35 @@
+commit 8091eaeb4a795c921f1e4cb3fb5449fe8be3d6cb
+Author: osvaldo <yair140193@gmail.com>
+Date:   Wed Jul 18 12:35:20 2018 -0500
+
+    fix de carousel
+
+commit b6a5ef4bfdfbbbcbedc9f5920588675096af38a4
+Author: osvaldo <yair140193@gmail.com>
+Date:   Wed Jul 18 12:18:19 2018 -0500
+
+    carousel
+
+commit 9f92298525cf7c2fd87e61bd0c6df2bd950e051c
+Author: osvaldo <yair140193@gmail.com>
+Date:   Thu Jul 12 18:59:25 2018 -0500
+
+    avance de 12/07/18
+
+commit 5b14d901c02b3d8955b4a2ac106908b5d531fdcc
+Author: osvaldo <yair140193@gmail.com>
+Date:   Tue Jul 10 12:58:56 2018 -0500
+
+    solucion del footer
+
+commit 0ccd97d36206429826e7407d03444c8531a336ba
+Author: osvaldo <yair140193@gmail.com>
+Date:   Sun Jul 8 15:14:20 2018 -0500
+
+    Incio de paragon
+
+commit 7f0d9c57f80e9257d6bce88998e9352547558c9d
+Author: osvaldo <yair140193@gmail.com>
+Date:   Wed Jul 4 13:06:21 2018 -0500
+
+    initial commit

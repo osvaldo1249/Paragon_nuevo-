@@ -1,16 +1,30 @@
-/*.label{
+.label{
   padding-top: 30px;
 }
 .label h3{
   font-size: 22pt;
   font-family: 'Montserrat';
 }
-
-#swiper-header img{
+/*carusel de home page */
+.swiper-header{
   width: 100%;
   height: 100%;
 }
-
+.wiper-header .swiper-slide{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+/*navbar de categoerias*/
 .navbar{
 	background-color:#f5f5f5; 
 	height:50px;
@@ -33,7 +47,7 @@
   height: 50%;
 }
 
-
+/*carousel de productos*/
 .swiper-slide{
   display: -webkit-box;
   display: -ms-flexbox;
@@ -61,50 +75,5 @@
     bottom: 10px;
     left: 0;
   } 
-}
-*/
-#swiper-header {
-  width: 100%;
-  height: 100%;
-}
-/*navbar de categoerias*/
-.navbar{
-  background-color:#f5f5f5; 
-  height:50px;
-  padding-top: 5px;
-}
-
-.dropdown-toggle{
-  height: 50px;
-  color: #fff;
-  width: 245px;
-  border: none; 
-  position: relative; 
-  background-color: #f6b810; 
-}
-
-#swiper-categorias{
-  position: relative;
-  left: 40px;
-  width: 80%;
-  height: 50%;
-}
-
-/*carousel de productos*/
-.swiper-slide{
-  /* Center slide text vertically */
- /* border: 1px solid black;*/
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
 }
 
