@@ -5,7 +5,9 @@ import { ProductsDetailComponent } from './products-detail/products-detail.compo
 import { HomepageComponent } from './homepage/homepage.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
 import { TerminosComponent } from './terminos/terminos.component';
-import { BusquedaComponent } from './busqueda/busqueda.component';
+import { PaginacionComponent } from './paginacion/paginacion.component';
+import { ProductBoxComponent } from './product-box/product-box.component';
+
 
 const routes: Routes = [ 
 	  {
@@ -31,8 +33,13 @@ const routes: Routes = [
 
     {
       path: 'categoria',
-      component: BusquedaComponent
+      component: PaginacionComponent
 
+    },
+
+    {
+      path: 'product-boxes',
+      component: ProductBoxComponent
     },
 
     {

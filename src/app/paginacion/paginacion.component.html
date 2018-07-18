@@ -1,0 +1,45 @@
+<div class="container">	
+	<div class="row">
+		<div class="col-xl-3">
+			<!-- <button class="" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"></button> -->
+			<!-- <div >
+				<h3>Categoria</h3>
+				<ul class="List" *ngFor="let items of heroes">
+					<input type="checkbox" name="">{{items}}
+				</ul>
+				<h3>Marca</h3>
+				<h3>Rango de precios</h3>
+				<h3>Calificado</h3>
+			</div> -->
+    	</div>
+		<!-- <ul><li *ngFor="let item of collection | paginate: { itemsPerPage:5, currentPage: p }">{{item}}</li>
+		</ul>
+		<pagination-controls (pageChange)="p =$event"></pagination-controls> -->
+		<div class="col-xl-9">
+			<div class="card-columns">
+				<div class="card" *ngFor="let productos of producto | paginate: { itemsPerPage:4, currentPage: p }">
+					<a routerLink="./products">
+						<img class="card-img-top" src="./assets/producto-prueba.jpg" alt="Card image cap">
+						<div class="card-body">
+							<div class="card-text">
+								<h4>{{productos.name}}</h4>
+								<p class="product-meta">
+								  DESDE <span id="precio">${{productos.precio}}</span> en <br>
+								  <span>{{productos.sitio}}</span> sitios
+								</p>
+								<p class="products-rating">
+								  <i class="fa fa-star-o" aria-hidden="true"></i>
+								  <i class="fa fa-star-o" aria-hidden="true"></i>
+								  <i class="fa fa-star-o" aria-hidden="true"></i>
+								  <i class="fa fa-star-o" aria-hidden="true"></i>
+								  <i class="fa fa-star-o" aria-hidden="true"></i>                
+								</p>
+							</div>
+						</div>
+					</a>
+		        </div>
+		    </div>
+		    <pagination-controls (pageChange)="p =$event"></pagination-controls>
+		</div>
+	</div>
+</div>

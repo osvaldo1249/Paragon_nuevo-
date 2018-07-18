@@ -3,7 +3,7 @@
 		<div class="col-xl-4" align="center">
 			 <img src="./assets/producto-prueba.jpg" alt="Card image cap">
 		</div>
-		<div class="col-xl-8" style="padding: 30px 0px;">
+		<div class="col-xl-8 .hidden-xs-down" style="padding: 30px">
 			<p id="descripcion">{{descripcion.substr(0,320)}}</p>
 		</div>
 	</div>
@@ -93,7 +93,17 @@
 	<div class="row">
 		<div class="col-xl-12">
 	    	<h2>PRODRUCTOS SIMILARES</h2>
-	    	<app-product-box></app-product-box>
 		</div>
+	</div>
+	<div class="swiper-container" id="similares">
+		<!-- Add Pagination -->
+		<div class="swiper-pagination"></div>
+
+		<div class="swiper-wrapper">
+	      <div class="swiper-slide"><app-product-box></app-product-box></div>
+	    </div>
+	   
+	    <div class="swiper-button-next"></div>
+	    <div class="swiper-button-prev"></div>
 	</div>
 </div>

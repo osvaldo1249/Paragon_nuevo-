@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { NgModule } from '@angular/core';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,7 +13,10 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { ProductsDetailComponent } from './products-detail/products-detail.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
 import { TerminosComponent } from './terminos/terminos.component';
-import { BusquedaComponent } from './busqueda/busqueda.component';
+import { PaginacionComponent } from './paginacion/paginacion.component';
+import { ForFilterPipe } from './for-filter.pipe';
+import { NgxPaginationModule } from 'ngx-pagination';
+
 
 
 @NgModule({
@@ -26,12 +30,15 @@ import { BusquedaComponent } from './busqueda/busqueda.component';
     ProductsDetailComponent,
     NosotrosComponent,
     TerminosComponent,
-    BusquedaComponent,
+    PaginacionComponent,
+    ForFilterPipe
   ],
   imports: [
     BrowserModule,
+    NgbModule.forRoot(),
     AngularFontAwesomeModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxPaginationModule
   ],
   providers: [],
   bootstrap: [AppComponent]
